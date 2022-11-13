@@ -1,0 +1,44 @@
+body {
+  background-image: url('./star-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cards {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid teal;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.cards:hover {
+  background-color: rgb(119, 1, 1);
+}
+
+.a__back {
+  text-decoration: none;
+  color: teal;
+  padding: 15px 10px;
+  border: 1px solid teal;
+}
+
+.a__back:hover {
+  background-color: aquamarine;
+}
+
+.container {
+  color: teal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cards span {
+  color: teal;
+}
+
